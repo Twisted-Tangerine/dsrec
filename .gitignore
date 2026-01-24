@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Logs & checkpoints
+logs/
+checkpoints/
+*.log
+
+# Data
+data/
+datasets/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

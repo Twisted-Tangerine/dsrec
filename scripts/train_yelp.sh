@@ -3,7 +3,7 @@
 
 GPU=0
 DATASET="yelp"
-SEEDS=(42)
+SEEDS=(42 43 44)
 
 # Hyperparameters
 HIDDEN=128

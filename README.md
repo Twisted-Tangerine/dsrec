@@ -43,11 +43,13 @@ bash scripts/trip_process_2.sh
 ### semantic embedding
 
 ### collaborative embedding
+Execute the provided bash scripts in order to generate the id-embeddings:
 ```sh
 bash scripts/general_trip.sh > ./results/id_trip.log 2>&1
 bash scripts/general_yelp.sh > ./results/id_yelp.log 2>&1
 bash scripts/general_grocery.sh > ./results/id_grocery.log 2>&1
 ```
+The output are ```user_id_embeddings.pkl``` and ```item_id_embeddings.pkl```, working for the FACA.
 
 ## Adaptation
 Now execute the provided bash to conduct dual-space adaptation:

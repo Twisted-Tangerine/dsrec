@@ -35,8 +35,8 @@ bash scripts/trip_process_2.sh
 *Note*: For the Grocery dataset, run ```grocery_process_1.5.sh``` before process 2 to handle items with missing metadata.
 
 3. Move the generated files to their respective directories for the next stages:
-- Place ```item_str.jsonline``` into ```SemanGen/data/{dataset}/```
-- Rename ```inter.txt``` to ```interaction.txt``` and place it in ```data/{dataset}/```
+- Place ```item_str.jsonline``` into ```/SemanGen/data/{dataset}/```
+- Rename ```inter.txt``` to ```interaction.txt``` and place it in ```/data/{dataset}/```
 
 ## Generation
 
@@ -59,7 +59,7 @@ bash scripts/train_yelp.sh > ./results/yelp.log 2>&1
 bash scripts/train_grocery.sh > ./results/grocery.log 2>&1
 ```
 
-The checkpoint will be saved in the folder `saved/`.
+The checkpoint will be saved in the folder `/saved/`.
 
 **Quick Start (Optional):**
 For the TripAdvisor dataset, we provide the pre-generated semantic representations used in the experiments. 

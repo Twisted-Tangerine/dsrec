@@ -44,7 +44,7 @@ bash scripts/yelp_process_2.sh
 
 ## Representation Generation
 
-### Semantic Embedding Generation (LLM-based)
+#### Semantic Embedding Generation (LLM-based)
 0. *(Optional)* If NCCL-related issues occur during LLM fine-tuning, you may disable NCCL P2P and IB: 
 ```sh
 export NCCL_P2P_DISABLE=1
@@ -64,7 +64,7 @@ bash scripts/semantic_grocery.sh > ./results/llm_grocery.log 2>&1
 
 The output file `semantics_embeddings.pkl` should be placed in `/data/{dataset}`
 
-### Collaborative Embedding Generation (ID-based)
+#### Collaborative Embedding Generation (ID-based)
 1. Execute the provided bash scripts in order to ***generate the id-embeddings***:
 ```sh
 bash scripts/general_trip.sh > ./results/id_trip.log 2>&1

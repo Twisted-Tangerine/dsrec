@@ -1,4 +1,4 @@
-# Dual-Space Rec
+# MyRec
 
 ## Environment
 

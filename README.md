@@ -1,12 +1,10 @@
-# DSRec: Dual-Space Sequential Recommendation
-
-The implementation of the submission "DSRec: Mitigating Double Noise in LLM-Enhanced Sequential Recommendation via Dual-Space Embedding Adaptation".
+# Dual-Space Rec
 
 ## Environment
 
 We use the following hardware and software environment:
 - Hardware:
-  - GPU: RTX 4090
+  - GPU: RTX 4090s
   - Cuda: 11.8
 - Software:
   - Python: 3.9
@@ -86,3 +84,7 @@ The checkpoint will be saved in the folder `/saved/`.
 **Quick Start (Optional):**
 For the TripAdvisor dataset, we provide the pre-generated semantic representations used in the experiments. 
 This allows directly running the dual-space adaptation stage without executing the LLM-based preprocessing pipeline.
+
+## Main Result
+<img width="1298" height="486" alt="image" src="https://github.com/user-attachments/assets/281047b1-8b2c-4493-8cc0-406344e8314e" />
+
